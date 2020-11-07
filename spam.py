@@ -6,10 +6,7 @@ n = 500          #banyak n nya
 
 print("\nSTART")
 
-count = 5
-while(count != 0) :
-	time.sleep(1)
-	count -= 1
+time.sleep(5)
 
 print("\n COMPLETE")
 
