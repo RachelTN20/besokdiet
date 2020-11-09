@@ -10,6 +10,6 @@ time.sleep(5)
 
 print("\n COMPLETE")
 
-for i in range(0, int(n)):
+for i in range(n):
 	pyautogui.typewrite(message + '\n')
 
