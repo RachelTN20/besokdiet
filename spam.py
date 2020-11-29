@@ -4,12 +4,7 @@ import time
 message = "todd" #ganti aja stringnya
 n = 500          #banyak n nya
 
-print("\nSTART")
-
 time.sleep(5)
-
-print("\n COMPLETE")
 
 for i in range(n):
 	pyautogui.typewrite(message + '\n')
-
